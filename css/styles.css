@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	background-color: #666666;
+	height: 1100px;
+	width: 1030px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 50px;
+	padding-top:20px;
+}
+body {
+	background-color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+hr {
+	color:#000;
+}
+h1{
+	font-size:24px;
+	font-weight:bold;
+}
+h2{
+	font-size:16px;
+	font-weight:bold;
+}
+h3{
+	font-size:12px;
+}
+.rightbox{
+
+	float:right;
+	width:900px;
+	height:1000px;
+}
+a:link{
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+a:visited {
+	font-size: 10px;
+	color: #000;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif
+}
+.title {
+	background-color: #9F0;
+	width:830px;
+	height:325px;
+}
+p{
+	width:520px;
+	
+}

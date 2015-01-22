@@ -1,0 +1,173 @@
+img {
+	max-width:100%;
+	max-height:auto;
+}
+@import url("icons-18-white.css");
+@import url("icons-36-white.css") only screen(-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi);
+/*Custom Theme :a
+-----------------------------------------------------------------------------------------------------------*/
+
+.ui-bar-a {
+	border-color:rgb(42,42,42);
+	border-width:1px;
+	border-style:solid;
+	background-image:
+	-moz-linear-gradient(74% -5% -90deg,rgb(123,196,26) 0%,rgb(91,145,19) 99%);
+	background-image:
+	-webkit-gradient(linear,74% -5%,74% 98%,color-stop(0, rgb(123,196,26)),color-stop(0.99, rgb(91,145,19)));
+	background-image:
+	-webkit-linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(91,145,19) 99%);
+	background-image:
+	-o-linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(91,145,19) 99%);
+	background-image:-ms-linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(91,145,19) 99%);
+	background-image:
+	linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(91,145,19) 99%);
+	
+	text-shadow:0px -1px 1px rgb(0,0,0);
+	font-weight:bold;
+	font-size:12pt;
+	color:rgb(255,255,255);
+	line-height:120%;
+	text-align:justify;
+
+}
+.ui-bar-a ,
+.ui-bar-a input, 
+.ui-bar-a select,
+.ui-bar-a textarea,
+.ui-bar-a button {
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.ui-bar-a .ui-link-inherit {
+	
+	text-shadow:0px -1px 1px rgb(0,0,0);
+	font-weight:bold;
+	font-size:12pt;
+	color:rgb(255,255,255);
+	line-height:120%;
+	text-align:justify;
+
+}
+
+.ui-bar-a .ui-link{
+	color:  #7cc4e7;
+	font-weight: bold;
+}
+
+.ui-bar-a .ui-link:hover{
+	color: #2489CE;
+}
+
+.ui-bar-a .ui-link:active{
+	color: #2489CE;
+}
+
+.ui-bar-a .ui-link:visited{
+	color: #2489CE;
+}
+.ui-body-a,
+.ui-dialog.ui-overlay-a {
+	border-color:rgb(42,42,42);
+	border-width:1px;
+	border-style:solid;
+	background:rgb(255,255,255);
+	
+	text-shadow:0px 1px 0px rgb(0,0,0);
+	font-size:12pt;
+	color:rgb(255,255,255);
+	line-height:120%;
+	text-align:justify;
+
+}
+.ui-body-a ,
+.ui-body-a input, 
+.ui-body-a select,
+.ui-body-a textarea,
+.ui-body-a button {
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.ui-body-a .ui-link-inherit {
+	
+	text-shadow:0px 1px 0px rgb(0,0,0);
+	font-size:12pt;
+	color:rgb(255,255,255);
+	line-height:120%;
+	text-align:justify;
+
+}
+
+.ui-body-a .ui-link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16pt;
+	color:rgb(123,196,26);
+	line-height:120%;
+	text-align:left;
+
+}
+
+.ui-body-a .ui-link:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16pt;
+	color:rgb(91,145,19);
+	line-height:120%;
+	text-align:left;
+
+}
+
+.ui-body-a .ui-link:active{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16pt;
+	color:rgb(123,196,26);
+	line-height:120%;
+	text-align:left;
+
+}
+
+.ui-body-a .ui-link:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16pt;
+	color:rgb(80,159,0);
+	line-height:120%;
+	text-align:left;
+
+}
+.ui-btn-up-a {
+	border-color:rgb(34,34,34);
+	border-width:1px;
+	border-style:solid;
+	background-image:
+	-moz-linear-gradient(50% 2% -90deg,rgb(123,196,26) 0%,rgb(80,159,0) 99%);
+	background-image:
+	-webkit-gradient(linear,50% 2%,50% 85%,color-stop(0, rgb(123,196,26)),color-stop(0.99, rgb(80,159,0)));
+	background-image:
+	-webkit-linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(80,159,0) 99%);
+	background-image:
+	-o-linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(80,159,0) 99%);
+	background-image:-ms-linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(80,159,0) 99%);
+	background-image:
+	linear-gradient(-90deg,rgb(123,196,26) 0%,rgb(80,159,0) 99%);
+	font-family: Arial, Helvetica, sans-serif;
+	
+	text-shadow:0px -1px 1px rgb(0,0,0);
+	font-weight:bold;
+	font-size:12pt;
+	color:rgb(255,255,255);
+	line-height:120%;
+	text-align:center;
+
+}
+
+.ui-btn-up-a a.ui-link-inherit {
+	
+	text-shadow:0px -1px 1px rgb(0,0,0);
+	font-weight:bold;
+	font-size:12pt;
+	color:rgb(255,255,255);
+	line-height:120%;
+	text-align:cent

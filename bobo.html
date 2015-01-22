@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BOBO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bobo.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+</head>
+<body>
+<div data-role="page" id ="Home">
+  <div data-role="header" class="header" data-position="fixed">
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content"> <img src="images/bobotea.jpg" class="display" alt="Bobo">
+    <div class="what">
+      <h1>What's Up</h1>
+      <p>Rewards App! Buy 9 drinks get the 10th FREE!!!! <a href="#">Learn More...</a></p>
+    </div>
+    <div class="what">
+      <h1>Location</h1>
+      <p class="location">Today's Location:</p>
+      <p>United Nation's Plaza</p>
+    </div>
+    <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=UN+Plaza,+San+Francisco,+CA&amp;aq=0&amp;oq=UN+P&amp;sll=37.266403,-121.81778&amp;sspn=0.619671,1.352692&amp;t=m&amp;ie=UTF8&amp;hq=UN+Plaza,+San+Francisco,+CA&amp;ll=37.780145,-122.413874&amp;spn=0.005088,0.006437&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=UN+Plaza,+San+Francisco,+CA&amp;aq=0&amp;oq=UN+P&amp;sll=37.266403,-121.81778&amp;sspn=0.619671,1.352692&amp;t=m&amp;ie=UTF8&amp;hq=UN+Plaza,+San+Francisco,+CA&amp;ll=37.780145,-122.413874&amp;spn=0.005088,0.006437&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small> </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /footer --> 
+</div>
+<div data-role="page" id="Menu">
+  <div data-role="header" class="header" data-position="fixed">
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content">
+    <div class="what">
+      <h1>Menu</h1>
+    </div>
+    <p class="menutext">Popular Drinks</p>
+    <a href="#Popular"><img src="images/popular.png" class="menu" alt="Bobo"></a>
+    </p>
+    <p class="menutext">Cold Drinks</p>
+    <a href="#Cold"><img src="images/cold.png" class="menu" alt="Bobo"></a>
+    </p>
+    <p class="menutext">Hot Drinks</p>
+    <a href="#Hot"><img src="images/hotea.png" class="menu" alt="Bobo"></a>
+    </p>
+    <p class="menutext">Snacks</p>
+    <a href="#Snack"><img src="images/snacks.png" class="menu" alt="Bobo"></a>
+    </p>
+  </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+</div>
+<div data-role="page" id="About">
+  <div data-role="header" class="header" data-position="fixed">
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content">
+    <div class="what">
+      <h1>About</h1>
+      <img src="images/about.png" class="display" alt="Bobo">
+      <p>BOBO is a beverage store on wheels. We are here to bring revitalizing tea to our customers in different locations. From our various drinks on our item to our yummy snacks. You can follow your truck by our website, facebook, or twitter.</p>
+    </div>
+  </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+</div>
+<div data-role="page" id="Contact">
+  <div data-role="header" class="header" data-position="fixed">
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content">
+    <div class="what">
+      <h1>Contact</h1>
+      <img src="images/contact.png" class="display" alt="Bobo">
+      <p>Phone Number: (555)-TEA-BOBO</p>
+      <p>Email: Bobo@bobo.com</p>
+    </div>
+    <div class="what">
+      <h1>Location</h1>
+      <p class="location">Today's Location:</p>
+      <p>United Nation's Plaza</p>
+    </div>
+    <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=UN+Plaza,+San+Francisco,+CA&amp;aq=0&amp;oq=UN+P&amp;sll=37.266403,-121.81778&amp;sspn=0.619671,1.352692&amp;t=m&amp;ie=UTF8&amp;hq=UN+Plaza,+San+Francisco,+CA&amp;ll=37.780145,-122.413874&amp;spn=0.005088,0.006437&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=UN+Plaza,+San+Francisco,+CA&amp;aq=0&amp;oq=UN+P&amp;sll=37.266403,-121.81778&amp;sspn=0.619671,1.352692&amp;t=m&amp;ie=UTF8&amp;hq=UN+Plaza,+San+Francisco,+CA&amp;ll=37.780145,-122.413874&amp;spn=0.005088,0.006437&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small> </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /footer --> 
+</div>
+<div data-role="page" id="Popular">
+<div data-role="header" class="header" data-position="fixed"><a href="#Menu" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true">Arrow left</a>
+  <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+</div>
+<div data-role="content">
+  <div class="what">
+    <h1>Popular Drinks</h1>
+    <img src="images/popular1.png" class="display" alt="Bobo">
+    
+     <img src="images/menupopular.png" class="display" alt="Bobo">
+  </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div></div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /footer --> 
+</div>
+<div data-role="page" id="Cold">
+  <div data-role="header" class="header" data-position="fixed"><a href="#Menu" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true">Arrow left</a>
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content">
+    <div class="what">
+      <h1>Cold Drinks</h1>
+      <img src="images/cold1.png" class="display" alt="Bobo">
+     <img src="images/menucold.png" class="display" alt="Bobo">
+    </div>
+     </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /footer --> 
+</div>
+<div data-role="page" id="Hot">
+  <div data-role="header" class="header" data-position="fixed"><a href="#Menu" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true">Arrow left</a>
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content">
+    <div class="what">
+      <h1>Hot Drinks</h1>
+      <img src="images/hot.png" class="display" alt="Bobo">
+      
+     <img src="images/menuhot.png" class="display" alt="Bobo">
+    </div>
+    
+    
+  </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /footer --> 
+</div>
+<div data-role="page" id="Snack">
+  <div data-role="header" class="header" data-position="fixed"><a href="#Menu" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true">Arrow left</a>
+    <div class="hLogo"><a href="#Home"><img src="images/Bobo.png" class="logo" alt="logo"></a></div>
+  </div>
+  <div data-role="content">
+    <div class="what">
+      <h1>Snacks</h1>
+      <img src="images/snack.png" class="display" alt="Bobo">
+      
+     <img src="images/menusnacks.png" class="display" alt="Bobo">
+    </div>
+    
+     </div>
+  <div data-role="footer" data-id="foo1" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /navbar --> 
+  </div>
+  <!-- /footer --> 
+</div>
+
+<script>
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+
+</script>
+</body>
+</html>
